@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0DFC34B8E578ADFEC75BDFFA33989306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		26190B32F14EA6DC1EBCF6D5B1313E6A /* Pods-KosignPushAsura_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */; };
+		3979A4CE213F82DA0037CE58 /* AsuraNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979A4CC213F82D90037CE58 /* AsuraNotification.swift */; };
+		3979A4CF213F82DA0037CE58 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979A4CD213F82DA0037CE58 /* API.swift */; };
 		3F851A774C87B078B0E9AB01F8F735A4 /* Pods-KosignPushAsura_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDA671E81E648F1D9DF6C0DBD1F832C /* Pods-KosignPushAsura_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B19E7783003CD4E04A04522D564A53F /* Pods-KosignPushAsura_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56B0F5AEB23FDC9BF8738939075773D6 /* Pods-KosignPushAsura_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */; };
 		78E0884AA3B1D820724A71E63B708EF9 /* KosignPushAsura-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D21DA8B4C6BFD9CC3F2D60A0B18F1AE /* KosignPushAsura-dummy.m */; };
-		8E693328777D6C42AD708B44B4EE7E5E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */; };
 		D3D5C3C6C8C1D83A80BF8A003CF63A67 /* KosignPushAsura-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC08E49A79E6E4D115A2E633ECD8F416 /* KosignPushAsura-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E81F163E2CE79EDF9FA5BF029304D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E85F326CCC66E96CF74423A5F9B7D80F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -42,10 +43,11 @@
 		1507198B232DDD95DEBA957EE92967E8 /* Pods-KosignPushAsura_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1D21DA8B4C6BFD9CC3F2D60A0B18F1AE /* KosignPushAsura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KosignPushAsura-dummy.m"; sourceTree = "<group>"; };
 		2C8647CCB4AE7ACC9FD79E5F9BA19172 /* Pods-KosignPushAsura_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Example.modulemap"; sourceTree = "<group>"; };
-		2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KosignPushAsura/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2E5F40079D97CA300623920C430B0963 /* Pods-KosignPushAsura_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30D191A792188514DAF1F0729A38B35E /* Pods-KosignPushAsura_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Tests.modulemap"; sourceTree = "<group>"; };
-		41B7571B0B761499B1D5C05ABFDF2B15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3979A4CC213F82D90037CE58 /* AsuraNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsuraNotification.swift; sourceTree = "<group>"; };
+		3979A4CD213F82DA0037CE58 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		41B7571B0B761499B1D5C05ABFDF2B15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4AE3591E812DAEA880528E3222D2647A /* Pods-KosignPushAsura_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F6771AB79A9594848744CF2CEE0CC65 /* KosignPushAsura.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KosignPushAsura.modulemap; sourceTree = "<group>"; };
@@ -54,13 +56,13 @@
 		5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignPushAsura_Example-dummy.m"; sourceTree = "<group>"; };
 		62365C652FA0013F4CFBC796F1CBB5F6 /* Pods-KosignPushAsura_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E2FAC887BE41F34D4B0B4FD4D7A1EB7 /* Pods-KosignPushAsura_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		754109D852D6977EFE3BDD7376CA24DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Tests.framework; path = "Pods-KosignPushAsura_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754109D852D6977EFE3BDD7376CA24DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignPushAsura_Example-umbrella.h"; sourceTree = "<group>"; };
-		92D17C744B625E9C67684F099B86DA84 /* KosignPushAsura.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92D17C744B625E9C67684F099B86DA84 /* KosignPushAsura.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A7E167731E458ED6A940BE59F0DCBB /* KosignPushAsura-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-prefix.pch"; sourceTree = "<group>"; };
-		A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KosignPushAsura.framework; path = KosignPushAsura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KosignPushAsura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignPushAsura_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0A45156375B321C5D5DEB3C41EA55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +73,7 @@
 		E898EE4B15516638C7532EF933E90A85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC08E49A79E6E4D115A2E633ECD8F416 /* KosignPushAsura-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-umbrella.h"; sourceTree = "<group>"; };
 		ED34183ED59F7FE677A78B4BED50D3F4 /* Pods-KosignPushAsura_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Example.framework; path = "Pods-KosignPushAsura_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +221,8 @@
 		F409D2ED3ADDD35809A9DB6B54EF1A67 /* KosignPushAsura */ = {
 			isa = PBXGroup;
 			children = (
-				2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */,
+				3979A4CD213F82DA0037CE58 /* API.swift */,
+				3979A4CC213F82D90037CE58 /* AsuraNotification.swift */,
 				3631F6BE7B982AD2AB1AAF9FC4E1B76D /* Pod */,
 				12E84EE7F253D4229AD9786FB4C515C0 /* Support Files */,
 			);
@@ -344,7 +347,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E0884AA3B1D820724A71E63B708EF9 /* KosignPushAsura-dummy.m in Sources */,
-				8E693328777D6C42AD708B44B4EE7E5E /* ReplaceMe.swift in Sources */,
+				3979A4CE213F82DA0037CE58 /* AsuraNotification.swift in Sources */,
+				3979A4CF213F82DA0037CE58 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
