@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KosignPushAsura_Example' do
+  pod 'KosignPushAsura', :path => '../'
+
+  target 'KosignPushAsura_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
