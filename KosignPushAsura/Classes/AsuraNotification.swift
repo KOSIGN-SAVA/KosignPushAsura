@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UserNotifications
 
 class AsuraNotification {
     private init(){}
