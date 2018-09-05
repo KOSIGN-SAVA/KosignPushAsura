@@ -1,0 +1,6 @@
+framework module KosignPushAsura {
+  umbrella header "KosignPushAsura-umbrella.h"
+
+  export *
+  module * { export * }
+}

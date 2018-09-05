@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFC34B8E578ADFEC75BDFFA33989306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		26190B32F14EA6DC1EBCF6D5B1313E6A /* Pods-KosignPushAsura_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */; };
+		3F851A774C87B078B0E9AB01F8F735A4 /* Pods-KosignPushAsura_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDA671E81E648F1D9DF6C0DBD1F832C /* Pods-KosignPushAsura_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B19E7783003CD4E04A04522D564A53F /* Pods-KosignPushAsura_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B0F5AEB23FDC9BF8738939075773D6 /* Pods-KosignPushAsura_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */; };
+		78E0884AA3B1D820724A71E63B708EF9 /* KosignPushAsura-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D21DA8B4C6BFD9CC3F2D60A0B18F1AE /* KosignPushAsura-dummy.m */; };
+		8E693328777D6C42AD708B44B4EE7E5E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */; };
+		D3D5C3C6C8C1D83A80BF8A003CF63A67 /* KosignPushAsura-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC08E49A79E6E4D115A2E633ECD8F416 /* KosignPushAsura-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E81F163E2CE79EDF9FA5BF029304D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E85F326CCC66E96CF74423A5F9B7D80F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		560452677804C0024EB8EFE3EF0DC2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863E1D1AA9B826114B92596039EF5B3E;
+			remoteInfo = "Pods-KosignPushAsura_Example";
+		};
+		C4DFC5DA4DE9B477EEA3E1232782A255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F71C79F8D5F77022D234AF839F88AA;
+			remoteInfo = KosignPushAsura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F1C866AD504608CD76A4E2ED48A066 /* Pods-KosignPushAsura_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Tests-resources.sh"; sourceTree = "<group>"; };
+		1134E7113D62D76042E4CD64898C1C13 /* KosignPushAsura.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KosignPushAsura.xcconfig; sourceTree = "<group>"; };
+		1507198B232DDD95DEBA957EE92967E8 /* Pods-KosignPushAsura_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1D21DA8B4C6BFD9CC3F2D60A0B18F1AE /* KosignPushAsura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KosignPushAsura-dummy.m"; sourceTree = "<group>"; };
+		2C8647CCB4AE7ACC9FD79E5F9BA19172 /* Pods-KosignPushAsura_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Example.modulemap"; sourceTree = "<group>"; };
+		2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KosignPushAsura/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2E5F40079D97CA300623920C430B0963 /* Pods-KosignPushAsura_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30D191A792188514DAF1F0729A38B35E /* Pods-KosignPushAsura_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Tests.modulemap"; sourceTree = "<group>"; };
+		41B7571B0B761499B1D5C05ABFDF2B15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4AE3591E812DAEA880528E3222D2647A /* Pods-KosignPushAsura_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F6771AB79A9594848744CF2CEE0CC65 /* KosignPushAsura.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KosignPushAsura.modulemap; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BDA671E81E648F1D9DF6C0DBD1F832C /* Pods-KosignPushAsura_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignPushAsura_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignPushAsura_Example-dummy.m"; sourceTree = "<group>"; };
+		62365C652FA0013F4CFBC796F1CBB5F6 /* Pods-KosignPushAsura_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E2FAC887BE41F34D4B0B4FD4D7A1EB7 /* Pods-KosignPushAsura_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		754109D852D6977EFE3BDD7376CA24DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Tests.framework; path = "Pods-KosignPushAsura_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignPushAsura_Example-umbrella.h"; sourceTree = "<group>"; };
+		92D17C744B625E9C67684F099B86DA84 /* KosignPushAsura.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A7E167731E458ED6A940BE59F0DCBB /* KosignPushAsura-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-prefix.pch"; sourceTree = "<group>"; };
+		A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KosignPushAsura.framework; path = KosignPushAsura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignPushAsura_Tests-dummy.m"; sourceTree = "<group>"; };
+		A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0A45156375B321C5D5DEB3C41EA55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB626EEA162C16735C194C1D03D1EDC2 /* Pods-KosignPushAsura_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Example-resources.sh"; sourceTree = "<group>"; };
+		D58B4E9F818BFF31D2B4B50146EEE366 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ABAF72548B0FD7E68278D400B52A3D /* Pods-KosignPushAsura_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E2E95B70ECEB24D8D1DD55D0F0C486E0 /* Pods-KosignPushAsura_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E898EE4B15516638C7532EF933E90A85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC08E49A79E6E4D115A2E633ECD8F416 /* KosignPushAsura-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-umbrella.h"; sourceTree = "<group>"; };
+		ED34183ED59F7FE677A78B4BED50D3F4 /* Pods-KosignPushAsura_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Example.framework; path = "Pods-KosignPushAsura_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CF29CA1368A142ECDAF9D06A595CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFC34B8E578ADFEC75BDFFA33989306 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E227440AF9D35FC9131544364FEA534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85F326CCC66E96CF74423A5F9B7D80F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF87989168171EFA9126E3333D9925F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E81F163E2CE79EDF9FA5BF029304D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E84EE7F253D4229AD9786FB4C515C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58B4E9F818BFF31D2B4B50146EEE366 /* Info.plist */,
+				4F6771AB79A9594848744CF2CEE0CC65 /* KosignPushAsura.modulemap */,
+				1134E7113D62D76042E4CD64898C1C13 /* KosignPushAsura.xcconfig */,
+				1D21DA8B4C6BFD9CC3F2D60A0B18F1AE /* KosignPushAsura-dummy.m */,
+				A0A7E167731E458ED6A940BE59F0DCBB /* KosignPushAsura-prefix.pch */,
+				EC08E49A79E6E4D115A2E633ECD8F416 /* KosignPushAsura-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KosignPushAsura";
+			sourceTree = "<group>";
+		};
+		3631F6BE7B982AD2AB1AAF9FC4E1B76D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92D17C744B625E9C67684F099B86DA84 /* KosignPushAsura.podspec */,
+				41B7571B0B761499B1D5C05ABFDF2B15 /* LICENSE */,
+				754109D852D6977EFE3BDD7376CA24DA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5D30FA14B5B3FD2958E35EC0CAED54EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F409D2ED3ADDD35809A9DB6B54EF1A67 /* KosignPushAsura */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		606C5F1153BAA84625C26355069CD280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */,
+				F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */,
+				75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64969099DEE81D5D54F944AD90798D21 /* Pods-KosignPushAsura_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E898EE4B15516638C7532EF933E90A85 /* Info.plist */,
+				2C8647CCB4AE7ACC9FD79E5F9BA19172 /* Pods-KosignPushAsura_Example.modulemap */,
+				62365C652FA0013F4CFBC796F1CBB5F6 /* Pods-KosignPushAsura_Example-acknowledgements.markdown */,
+				6E2FAC887BE41F34D4B0B4FD4D7A1EB7 /* Pods-KosignPushAsura_Example-acknowledgements.plist */,
+				5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */,
+				1507198B232DDD95DEBA957EE92967E8 /* Pods-KosignPushAsura_Example-frameworks.sh */,
+				CB626EEA162C16735C194C1D03D1EDC2 /* Pods-KosignPushAsura_Example-resources.sh */,
+				91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */,
+				A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */,
+				E2ABAF72548B0FD7E68278D400B52A3D /* Pods-KosignPushAsura_Example.release.xcconfig */,
+			);
+			name = "Pods-KosignPushAsura_Example";
+			path = "Target Support Files/Pods-KosignPushAsura_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5D30FA14B5B3FD2958E35EC0CAED54EC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				606C5F1153BAA84625C26355069CD280 /* Products */,
+				AF4E8724D221B16997146697FCBCABA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4E8724D221B16997146697FCBCABA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64969099DEE81D5D54F944AD90798D21 /* Pods-KosignPushAsura_Example */,
+				F0967E72F72561B32E8FD98FBB18CED9 /* Pods-KosignPushAsura_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0967E72F72561B32E8FD98FBB18CED9 /* Pods-KosignPushAsura_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A45156375B321C5D5DEB3C41EA55D /* Info.plist */,
+				30D191A792188514DAF1F0729A38B35E /* Pods-KosignPushAsura_Tests.modulemap */,
+				4AE3591E812DAEA880528E3222D2647A /* Pods-KosignPushAsura_Tests-acknowledgements.markdown */,
+				2E5F40079D97CA300623920C430B0963 /* Pods-KosignPushAsura_Tests-acknowledgements.plist */,
+				A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */,
+				ED34183ED59F7FE677A78B4BED50D3F4 /* Pods-KosignPushAsura_Tests-frameworks.sh */,
+				03F1C866AD504608CD76A4E2ED48A066 /* Pods-KosignPushAsura_Tests-resources.sh */,
+				5BDA671E81E648F1D9DF6C0DBD1F832C /* Pods-KosignPushAsura_Tests-umbrella.h */,
+				E2E95B70ECEB24D8D1DD55D0F0C486E0 /* Pods-KosignPushAsura_Tests.debug.xcconfig */,
+				4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */,
+			);
+			name = "Pods-KosignPushAsura_Tests";
+			path = "Target Support Files/Pods-KosignPushAsura_Tests";
+			sourceTree = "<group>";
+		};
+		F409D2ED3ADDD35809A9DB6B54EF1A67 /* KosignPushAsura */ = {
+			isa = PBXGroup;
+			children = (
+				2CD33AE6993A8050D0E9508D08DA1D8D /* ReplaceMe.swift */,
+				3631F6BE7B982AD2AB1AAF9FC4E1B76D /* Pod */,
+				12E84EE7F253D4229AD9786FB4C515C0 /* Support Files */,
+			);
+			name = KosignPushAsura;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30A421F29EDD85EA1F21A1EAB4E24CD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F851A774C87B078B0E9AB01F8F735A4 /* Pods-KosignPushAsura_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF1808A54AE8D7D08FB734CDB81EBB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D5C3C6C8C1D83A80BF8A003CF63A67 /* KosignPushAsura-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD6602F70E380D8AAAA9DFDCCB18CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B19E7783003CD4E04A04522D564A53F /* Pods-KosignPushAsura_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		863E1D1AA9B826114B92596039EF5B3E /* Pods-KosignPushAsura_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48F13F0C85FB65453ACBDE620BB808 /* Build configuration list for PBXNativeTarget "Pods-KosignPushAsura_Example" */;
+			buildPhases = (
+				F391BF87EDAF9238C02D76AE9C66EC57 /* Sources */,
+				6E227440AF9D35FC9131544364FEA534 /* Frameworks */,
+				EADD6602F70E380D8AAAA9DFDCCB18CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				705F13513045F5B818F4E74D221B1077 /* PBXTargetDependency */,
+			);
+			name = "Pods-KosignPushAsura_Example";
+			productName = "Pods-KosignPushAsura_Example";
+			productReference = F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92F71C79F8D5F77022D234AF839F88AA /* KosignPushAsura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4377A16EAC2EA16C0E35321F8EE276D3 /* Build configuration list for PBXNativeTarget "KosignPushAsura" */;
+			buildPhases = (
+				3CE189CDADCD2D0B749C03F740D3D706 /* Sources */,
+				DF87989168171EFA9126E3333D9925F2 /* Frameworks */,
+				BAF1808A54AE8D7D08FB734CDB81EBB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KosignPushAsura;
+			productName = KosignPushAsura;
+			productReference = A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B32094C5BAA4E86DE888A0EDB0DDB585 /* Pods-KosignPushAsura_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40D099210BC05949157D9738F05960 /* Build configuration list for PBXNativeTarget "Pods-KosignPushAsura_Tests" */;
+			buildPhases = (
+				E942C28A6A3A0A17F632FF4B64F62EA2 /* Sources */,
+				16CF29CA1368A142ECDAF9D06A595CA8 /* Frameworks */,
+				30A421F29EDD85EA1F21A1EAB4E24CD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF178008C4501AA9F963548C689E1B20 /* PBXTargetDependency */,
+			);
+			name = "Pods-KosignPushAsura_Tests";
+			productName = "Pods-KosignPushAsura_Tests";
+			productReference = 75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 606C5F1153BAA84625C26355069CD280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F71C79F8D5F77022D234AF839F88AA /* KosignPushAsura */,
+				863E1D1AA9B826114B92596039EF5B3E /* Pods-KosignPushAsura_Example */,
+				B32094C5BAA4E86DE888A0EDB0DDB585 /* Pods-KosignPushAsura_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE189CDADCD2D0B749C03F740D3D706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E0884AA3B1D820724A71E63B708EF9 /* KosignPushAsura-dummy.m in Sources */,
+				8E693328777D6C42AD708B44B4EE7E5E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E942C28A6A3A0A17F632FF4B64F62EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26190B32F14EA6DC1EBCF6D5B1313E6A /* Pods-KosignPushAsura_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391BF87EDAF9238C02D76AE9C66EC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B0F5AEB23FDC9BF8738939075773D6 /* Pods-KosignPushAsura_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		705F13513045F5B818F4E74D221B1077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KosignPushAsura;
+			target = 92F71C79F8D5F77022D234AF839F88AA /* KosignPushAsura */;
+			targetProxy = C4DFC5DA4DE9B477EEA3E1232782A255 /* PBXContainerItemProxy */;
+		};
+		AF178008C4501AA9F963548C689E1B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KosignPushAsura_Example";
+			target = 863E1D1AA9B826114B92596039EF5B3E /* Pods-KosignPushAsura_Example */;
+			targetProxy = 560452677804C0024EB8EFE3EF0DC2EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B6569CE78A2404CF178774F4138566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2ABAF72548B0FD7E68278D400B52A3D /* Pods-KosignPushAsura_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignPushAsura_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignPushAsura_Example/Pods-KosignPushAsura_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E3D90146E1880AE1F5CA2C9FC0ACB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1134E7113D62D76042E4CD64898C1C13 /* KosignPushAsura.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KosignPushAsura/KosignPushAsura-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KosignPushAsura/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KosignPushAsura/KosignPushAsura.modulemap";
+				PRODUCT_MODULE_NAME = KosignPushAsura;
+				PRODUCT_NAME = KosignPushAsura;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		123723F507EC3AF5F9F0A641F1A3C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1134E7113D62D76042E4CD64898C1C13 /* KosignPushAsura.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KosignPushAsura/KosignPushAsura-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KosignPushAsura/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KosignPushAsura/KosignPushAsura.modulemap";
+				PRODUCT_MODULE_NAME = KosignPushAsura;
+				PRODUCT_NAME = KosignPushAsura;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2607D603627B6D5E25AEDD35EF8C5394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E95B70ECEB24D8D1DD55D0F0C486E0 /* Pods-KosignPushAsura_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignPushAsura_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignPushAsura_Tests/Pods-KosignPushAsura_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E3813B3DA52C650090A8D15D8DC6BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignPushAsura_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignPushAsura_Example/Pods-KosignPushAsura_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F2C03A881841AE717DA21926518B1F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignPushAsura_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignPushAsura_Tests/Pods-KosignPushAsura_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4377A16EAC2EA16C0E35321F8EE276D3 /* Build configuration list for PBXNativeTarget "KosignPushAsura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3D90146E1880AE1F5CA2C9FC0ACB41 /* Debug */,
+				123723F507EC3AF5F9F0A641F1A3C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48F13F0C85FB65453ACBDE620BB808 /* Build configuration list for PBXNativeTarget "Pods-KosignPushAsura_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3813B3DA52C650090A8D15D8DC6BDA /* Debug */,
+				06B6569CE78A2404CF178774F4138566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE40D099210BC05949157D9738F05960 /* Build configuration list for PBXNativeTarget "Pods-KosignPushAsura_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2607D603627B6D5E25AEDD35EF8C5394 /* Debug */,
+				F2C03A881841AE717DA21926518B1F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

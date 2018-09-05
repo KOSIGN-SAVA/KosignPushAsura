@@ -1,0 +1,16 @@
+PODS:
+  - KosignPushAsura (0.1.0)
+
+DEPENDENCIES:
+  - KosignPushAsura (from `../`)
+
+EXTERNAL SOURCES:
+  KosignPushAsura:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KosignPushAsura: 648a95b1e9cf4ff5020e705f10636c835b2e5ee8
+
+PODFILE CHECKSUM: fb4cf72e535eddc037e1eff61d441154bf735d43
+
+COCOAPODS: 1.5.3

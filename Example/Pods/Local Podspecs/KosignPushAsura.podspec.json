@@ -1,0 +1,22 @@
+{
+  "name": "KosignPushAsura",
+  "version": "0.1.0",
+  "summary": "A short description of KosignPushAsura.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vs.lov.rs@gmail.com/KosignPushAsura",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vs.lov.rs@gmail.com": "vs.lov.rs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vs.lov.rs@gmail.com/KosignPushAsura.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KosignPushAsura/Classes/**/*"
+}
