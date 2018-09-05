@@ -3,7 +3,7 @@
 //  K_PUSH
 //
 //  Created by         TuyNuy         on 8/16/18.
-//  Copyright © 2018 TuyNuy. All rights reserved.
+//  Copyright © 2018 TuyNuy. All rights reserved. xd
 //
 
 import Foundation

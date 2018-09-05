@@ -30,10 +30,10 @@
 /* Begin PBXFileReference section */
 		040114EF283D7AD565C13848 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DAE0D47ACBC4241C88B354 /* Pods-KosignPushAsura_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosignPushAsura_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KosignPushAsura_Example/Pods-KosignPushAsura_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1BE4409826C8B5E73F1F64D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3D8D5379EB8B21DD76A0231B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1BE4409826C8B5E73F1F64D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D8D5379EB8B21DD76A0231B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		50CE2B815AE3F04C7EA76049 /* Pods-KosignPushAsura_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosignPushAsura_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KosignPushAsura_Tests/Pods-KosignPushAsura_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		515EBB02840E27E62DE1E9D5 /* KosignPushAsura.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KosignPushAsura.podspec; path = ../KosignPushAsura.podspec; sourceTree = "<group>"; };
+		515EBB02840E27E62DE1E9D5 /* KosignPushAsura.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KosignPushAsura.podspec; path = ../KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KosignPushAsura_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KosignPushAsura_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
