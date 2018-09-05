@@ -7,6 +7,8 @@
 //
 
 import UIKit
+/* ----- STEP1: import module below ----- */
+import KosignPushAsura
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        /* ----- STEP2: Register notification with your app id from Asura Kosign Push ----- */
+        AsuraNotification.notification.registerAppId(withAppId: "your_app_id_here", application: application)
+        
         return true
     }
 
@@ -41,6 +46,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    /* =========================== Notification delegate =============================== */
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        /* ----- STEP3: Start register notification after granted ----- */
+        AsuraNotification.notification.register(withDeviceToken: deviceToken) { (error) in
+            
+            //****** can implement request register here *******
+            guard let withError = error else { return print("KosignPushAsura Register ==> Success") }
+            print("KosignPushAsura Register ==> Fail by ", withError.localizedDescription)
+            //-**************** end ************************
+            
+        }
+        
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("error notification: ", error.localizedDescription)
+    }
+    /* =========================== END Notification delegate =============================== */
 
 }
 

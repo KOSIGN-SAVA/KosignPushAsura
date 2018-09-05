@@ -1,22 +1,23 @@
 {
   "name": "KosignPushAsura",
   "version": "0.1.0",
-  "summary": "A short description of KosignPushAsura.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vs.lov.rs@gmail.com/KosignPushAsura",
+  "summary": "Push pung Push Push note",
+  "description": "This is Kosign push notification service internal the company.",
+  "homepage": "https://github.com/KOSIGN-SAVA/KosignPushAsura",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "vs.lov.rs@gmail.com": "vs.lov.rs@gmail.com"
+    "Vansa Pha": "vs.lov.rs@gmail.com"
   },
   "source": {
-    "git": "https://github.com/vs.lov.rs@gmail.com/KosignPushAsura.git",
+    "git": "https://github.com/KOSIGN-SAVA/KosignPushAsura.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "KosignPushAsura/Classes/**/*"
+  "source_files": "KosignPushAsura/Classes/**/*",
+  "frameworks": "UserNotifications"
 }

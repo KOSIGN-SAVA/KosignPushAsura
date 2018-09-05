@@ -26,7 +26,7 @@ public class API {
     var isTimeout       = false
     
     //MARK: Api id
-    let registerNotificationApi = "http://192.168.178.133:8080/api/registernotification"
+    let registerNotificationApi = "http://192.168.178.133:8080/api/registernotification/"
     
     private func request(urlString: String , body: [String: AnyObject]) -> URLRequest  {
         let requestBody     = self.printPrettyBody(body: body) ?? ""
@@ -35,6 +35,7 @@ public class API {
         var request         = URLRequest(url: url)
         request.httpMethod  = "POST"
         request.httpBody    = requestBody.data(using: .utf8)
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         #if DEBUG
         print("\n✂︎----------------------------------------------------------")
@@ -81,10 +82,10 @@ public class API {
                 return
             }
             
-            guard let dataString = String(data: data, encoding: String.Encoding.utf8) else { return }
-            guard let decodedDataString = dataString.removingPercentEncoding else { return }
+            guard let dataString = String(data: data, encoding: .utf8) else { return }
+            print("data: String: ", dataString)
             
-            if let data = decodedDataString.data(using: .utf8) {
+            if let data = dataString.data(using: .utf8) {
                 #if DEBUG
                 print("\n✂︎----------------------------------------------------------")
                 print("From API URL: \(request.url!)")

@@ -6,26 +6,29 @@
 //
 
 import Foundation
+import UserNotifications
 
-class AsuraNotification {
+open class AsuraNotification {
     private init(){}
-    static let notification = AsuraNotification()
+    open static let notification = AsuraNotification()
     private(set) var appId: String?
     let deviceTypeIdentify = "2"
-    typealias completionHandler = (Dictionary<String, AnyObject>?, NSError?) -> Void
+    public typealias completionHandler = (NSError?) -> Void
     
-    public func registerAppId(withAppId appUUID: String) {
+    open func registerAppId(withAppId appUUID: String, application: UIApplication) {
         self.appId = appUUID
+        registerForPushNotifications(application: application)
     }
     
-    public func register(withDeviceToken token: String, completion: @escaping completionHandler) {
+    open func register(withDeviceToken token: Data, completion: @escaping completionHandler) {
+        let deviceTokenString = token.hexString
         guard let appUUID = appId else {
             let errorMessage = "Get problem with your AppId, please check it again."
             #if DEBUG
             print(errorMessage)
             #endif
             let appUUIDError = NSError(domain: "App Id error", code: 1001, userInfo: [NSLocalizedDescriptionKey: errorMessage])
-            return completion(nil, appUUIDError)
+            return completion(appUUIDError)
         }
         
         let registerDeviceInfo = [
@@ -33,23 +36,17 @@ class AsuraNotification {
             "device_type"   : deviceTypeIdentify,
             "app_version"   : getVersion(),
             "language"      : getLanguage(),
-            "token"         : token,
-            "app_uuid"      : appUUID
+            "token"         : deviceTokenString
         ] as Dictionary<String, AnyObject>
         
         //request
-        API.shared.fetchData(urlString: API.shared.registerNotificationApi, body: registerDeviceInfo) { (response) in
+        let apiName = API.shared.registerNotificationApi + appUUID
+        API.shared.fetchData(urlString: apiName, body: registerDeviceInfo) { (response) in
             switch response {
-            case .success(let data):
-                #if DEBUG
-                print(data)
-                #endif
-                completion(data, nil)
+            case .success(_):
+                completion(nil)
             case .error(let error):
-                #if DEBUG
-                print(error)
-                #endif
-                completion(nil, error)
+                completion(error)
             }
         }
     }
@@ -62,11 +59,40 @@ class AsuraNotification {
         let dictionary = Bundle.main.infoDictionary!
         let version = dictionary["CFBundleShortVersionString"] as! String
         let build = dictionary["CFBundleVersion"] as! String
-        return "\(version) build \(build)"
+        return "\(version).\(build)"
     }
     
     private func getLanguage() -> String {
-        return Locale.current.languageCode ?? "Unknown"
+        guard let countryCode = (Locale.current as NSLocale).object(forKey: .countryCode) as? String else { return "Unknown" }
+        return countryCode
+    }
+    
+    private func getTokenFromData(deviceToken: Data) -> String {
+        var deviceTokenString = String(format:"%@", deviceToken as CVarArg)
+        deviceTokenString = deviceTokenString.trimmingCharacters(in: CharacterSet(charactersIn: "<>"))
+        deviceTokenString = deviceTokenString.replacingOccurrences(of: " ", with: "")
+        return deviceTokenString
+    }
+    
+    func registerForPushNotifications(application: UIApplication) {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) {
+            (granted, error) in
+            #if DEBUG
+            print("Permission granted: ", granted)
+            #endif
+            if granted {
+                DispatchQueue.main.async {
+                    application.registerForRemoteNotifications()
+                }
+            }
+        }
+    }
+}
+
+extension Data {
+    var hexString: String {
+        let hexString = map { String(format: "%02.2hhx", $0) }.joined()
+        return hexString
     }
 }
 
