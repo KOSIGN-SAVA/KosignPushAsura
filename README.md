@@ -1,6 +1,6 @@
 # KosignPushAsura
 
-<img src="KOSIGN.png" style="max-width:100%">
+<img src="https://kosignstore.wecambodia.com/storage/image/KOSIGN.png" style="max-width:100%">
 
 [![CI Status](https://img.shields.io/travis/vs.lov.rs@gmail.com/KosignPushAsura.svg?style=flat)](https://travis-ci.org/vs.lov.rs@gmail.com/KosignPushAsura)
 [![Version](https://img.shields.io/cocoapods/v/KosignPushAsura.svg?style=flat)](https://cocoapods.org/pods/KosignPushAsura)
@@ -38,7 +38,7 @@ Implement in didFinishLaunchingWithOptions.
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-    AsuraNotification.notification.registerAppId(withAppId: "your_app_id_here", application: application)
+    AsuraNotification.notification.registerAppId(withAppId: "<your_app_id_here>", application: application)
 
     return true
 }
@@ -54,8 +54,8 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
         }else { //fail
           //do something here when fail
         }
-
     }
+    
 }
 ```
 

@@ -48,7 +48,6 @@
 		2C8647CCB4AE7ACC9FD79E5F9BA19172 /* Pods-KosignPushAsura_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Example.modulemap"; sourceTree = "<group>"; };
 		2E5F40079D97CA300623920C430B0963 /* Pods-KosignPushAsura_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30D191A792188514DAF1F0729A38B35E /* Pods-KosignPushAsura_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Tests.modulemap"; sourceTree = "<group>"; };
-		39CAFC5A2140C2F100677FCF /* KOSIGN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KOSIGN.png; sourceTree = "<group>"; };
 		4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4AE3591E812DAEA880528E3222D2647A /* Pods-KosignPushAsura_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F412BB70B4BCC8E0A86D205639908F9 /* KosignPushAsura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KosignPushAsura-dummy.m"; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 			children = (
 				159CFDA1073B781C4F0511F7D5303ADF /* KosignPushAsura.podspec */,
 				F984BAF715359AA5E08A05BD3B6DCA2B /* LICENSE */,
-				39CAFC5A2140C2F100677FCF /* KOSIGN.png */,
 				9488B5A4C4942B58AF2C1C21A164FD88 /* README.md */,
 			);
 			name = Pod;
