@@ -1,8 +1,7 @@
 # KosignPushAsura
 
-```html
 <img src="KOSIGN.png" style="max-width:100%">
-```
+
 [![CI Status](https://img.shields.io/travis/vs.lov.rs@gmail.com/KosignPushAsura.svg?style=flat)](https://travis-ci.org/vs.lov.rs@gmail.com/KosignPushAsura)
 [![Version](https://img.shields.io/cocoapods/v/KosignPushAsura.svg?style=flat)](https://cocoapods.org/pods/KosignPushAsura)
 [![License](https://img.shields.io/cocoapods/l/KosignPushAsura.svg?style=flat)](https://cocoapods.org/pods/KosignPushAsura)
@@ -13,13 +12,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first. (Now beta version test in internal company only)
 
 ## Requirements
-```html
+
 <ul>
 <li>iOS 11.0+/ macOS 10.13+</li>
 <li>XCode 9.0+</li>
 <li>Swift 4.0+</li>
 </ul>
-```
 
 ## Installation
 
