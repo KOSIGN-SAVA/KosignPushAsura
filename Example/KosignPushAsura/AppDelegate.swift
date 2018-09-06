@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  KosignPushAsura
 //
-//  Created by vs.lov.rs@gmail.com on 09/05/2018.
+//  Created by Vansa Pha on 09/05/2018.
 //  Copyright (c) 2018 vs.lov.rs@gmail.com. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         /* ----- STEP2: Register notification with your app id from Asura Kosign Push ----- */
-        AsuraNotification.notification.registerAppId(withAppId: "your_app_id_here", application: application)
+        AsuraNotification.notification.registerAppId(withAppId: "<your_app_id_here>", application: application)
         
         return true
     }
@@ -52,10 +52,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* ----- STEP3: Start register notification after granted ----- */
         AsuraNotification.notification.register(withDeviceToken: deviceToken) { (error) in
             
-            //****** can implement request register here *******
-            guard let withError = error else { return print("KosignPushAsura Register ==> Success") }
-            print("KosignPushAsura Register ==> Fail by ", withError.localizedDescription)
-            //-**************** end ************************
+            if error == nil {
+                //success, do something here
+            }else {
+                //fail, do something here
+            }
             
         }
         

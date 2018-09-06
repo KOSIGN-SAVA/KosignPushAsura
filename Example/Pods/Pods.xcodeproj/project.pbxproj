@@ -44,10 +44,11 @@
 		099C10F3A7B9945F3C9D03FF2CBF0CFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		124AE78EBCAADF4365966C1EB4847DC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1507198B232DDD95DEBA957EE92967E8 /* Pods-KosignPushAsura_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Example-frameworks.sh"; sourceTree = "<group>"; };
-		159CFDA1073B781C4F0511F7D5303ADF /* KosignPushAsura.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		159CFDA1073B781C4F0511F7D5303ADF /* KosignPushAsura.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KosignPushAsura.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C8647CCB4AE7ACC9FD79E5F9BA19172 /* Pods-KosignPushAsura_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Example.modulemap"; sourceTree = "<group>"; };
 		2E5F40079D97CA300623920C430B0963 /* Pods-KosignPushAsura_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30D191A792188514DAF1F0729A38B35E /* Pods-KosignPushAsura_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignPushAsura_Tests.modulemap"; sourceTree = "<group>"; };
+		39CAFC5A2140C2F100677FCF /* KOSIGN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KOSIGN.png; sourceTree = "<group>"; };
 		4276C5C08837DCC99399D271AF55D81F /* Pods-KosignPushAsura_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4AE3591E812DAEA880528E3222D2647A /* Pods-KosignPushAsura_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F412BB70B4BCC8E0A86D205639908F9 /* KosignPushAsura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KosignPushAsura-dummy.m"; sourceTree = "<group>"; };
@@ -56,12 +57,12 @@
 		62365C652FA0013F4CFBC796F1CBB5F6 /* Pods-KosignPushAsura_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignPushAsura_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E2FAC887BE41F34D4B0B4FD4D7A1EB7 /* Pods-KosignPushAsura_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignPushAsura_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		71F9CC64E5BFF43B8694FB7E793603E2 /* KosignPushAsura.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KosignPushAsura.xcconfig; sourceTree = "<group>"; };
-		75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Tests.framework; path = "Pods-KosignPushAsura_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DB4247595465B691D8DA69386F18A6 /* Pods_KosignPushAsura_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		812C563D9E7E29ECAED228396C4376DE /* KosignPushAsura-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-prefix.pch"; sourceTree = "<group>"; };
 		91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignPushAsura_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9488B5A4C4942B58AF2C1C21A164FD88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KosignPushAsura.framework; path = KosignPushAsura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9488B5A4C4942B58AF2C1C21A164FD88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A257824CD40B0AB5EB1BEDCCBA8B1B23 /* KosignPushAsura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KosignPushAsura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignPushAsura_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0A45156375B321C5D5DEB3C41EA55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,8 +74,8 @@
 		E898EE4B15516638C7532EF933E90A85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED34183ED59F7FE677A78B4BED50D3F4 /* Pods-KosignPushAsura_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F3B3B913769F3308665C62EA0A2CBBE6 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = KosignPushAsura/Classes/API.swift; sourceTree = "<group>"; };
-		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KosignPushAsura_Example.framework; path = "Pods-KosignPushAsura_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F984BAF715359AA5E08A05BD3B6DCA2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F984BAF715359AA5E08A05BD3B6DCA2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC8E5FE6B646804478DE420C598583FA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +130,7 @@
 			children = (
 				159CFDA1073B781C4F0511F7D5303ADF /* KosignPushAsura.podspec */,
 				F984BAF715359AA5E08A05BD3B6DCA2B /* LICENSE */,
+				39CAFC5A2140C2F100677FCF /* KOSIGN.png */,
 				9488B5A4C4942B58AF2C1C21A164FD88 /* README.md */,
 			);
 			name = Pod;
