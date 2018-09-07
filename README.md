@@ -9,7 +9,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first. (Now beta version test in internal company only)
+To run the example project, clone the repo, and run `pod install` from the Example directory first. (Now beta version test in internal company only). If run error try `pod update` .
 
 ## Requirements
 
@@ -47,15 +47,27 @@ Implement in didFinishLaunchingWithOptions.
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-    AsuraNotification.notification.registerAppId(withAppId: "<your_app_id_here>", application: application)
+    self.registerAsura(withAppId: "<input_app_id_here>")
 
     return true
 }
 ```
 
+- Optional
+You can implement when receive notification or error handling below.
+```swift
+override func didReceiveAsuraNotifcation(userInfo: [String : AnyObject]) {
+//do something here
+}
+
+override func didFailRegisterAsuraNotification(error: Error) {
+//do something here
+}
+```
+
 ## Author
 
-Vansa Pha, vansapha.biz@gmail.com
+Asura team (iOS)
 
 ## License
 
