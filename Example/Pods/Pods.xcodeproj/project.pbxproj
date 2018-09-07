@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020DDBB0B2078BBB1D092677AC6F29A2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3B913769F3308665C62EA0A2CBBE6 /* API.swift */; };
 		0DFC34B8E578ADFEC75BDFFA33989306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124AE78EBCAADF4365966C1EB4847DC7 /* Foundation.framework */; };
 		20ACAF1A5600E71EB0C595E02F85968A /* KosignPushAsura-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE52B00C82E2A2AE4E69174AB73BD8E9 /* KosignPushAsura-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26190B32F14EA6DC1EBCF6D5B1313E6A /* Pods-KosignPushAsura_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F0BD7650D5B062B4195A0B9618B22 /* Pods-KosignPushAsura_Tests-dummy.m */; };
@@ -15,7 +14,6 @@
 		3F851A774C87B078B0E9AB01F8F735A4 /* Pods-KosignPushAsura_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDA671E81E648F1D9DF6C0DBD1F832C /* Pods-KosignPushAsura_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B19E7783003CD4E04A04522D564A53F /* Pods-KosignPushAsura_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B181AD3452E100F1F0EF16E1DAD2FF /* Pods-KosignPushAsura_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56B0F5AEB23FDC9BF8738939075773D6 /* Pods-KosignPushAsura_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8A84397EA3588BB3AB4926BAAAF3 /* Pods-KosignPushAsura_Example-dummy.m */; };
-		AD9BCAA8339BC3CFFA46C7B7212EC169 /* AsuraNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CABB787EF72D9F11E76181F4D727C /* AsuraNotification.swift */; };
 		DA290B98C033DA859B959E2A31E5CB3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124AE78EBCAADF4365966C1EB4847DC7 /* Foundation.framework */; };
 		E85F326CCC66E96CF74423A5F9B7D80F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124AE78EBCAADF4365966C1EB4847DC7 /* Foundation.framework */; };
 		F6DF6D3F5E5F43561B35CD5B83AE9767 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8E5FE6B646804478DE420C598583FA /* UserNotifications.framework */; };
@@ -66,13 +64,11 @@
 		A6B96C1FCC9849A1A1799F4FCB301CCB /* Pods-KosignPushAsura_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0A45156375B321C5D5DEB3C41EA55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB626EEA162C16735C194C1D03D1EDC2 /* Pods-KosignPushAsura_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Example-resources.sh"; sourceTree = "<group>"; };
-		DD9CABB787EF72D9F11E76181F4D727C /* AsuraNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsuraNotification.swift; path = KosignPushAsura/Classes/AsuraNotification.swift; sourceTree = "<group>"; };
 		DE52B00C82E2A2AE4E69174AB73BD8E9 /* KosignPushAsura-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignPushAsura-umbrella.h"; sourceTree = "<group>"; };
 		E2ABAF72548B0FD7E68278D400B52A3D /* Pods-KosignPushAsura_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E2E95B70ECEB24D8D1DD55D0F0C486E0 /* Pods-KosignPushAsura_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignPushAsura_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E898EE4B15516638C7532EF933E90A85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED34183ED59F7FE677A78B4BED50D3F4 /* Pods-KosignPushAsura_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignPushAsura_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F3B3B913769F3308665C62EA0A2CBBE6 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = KosignPushAsura/Classes/API.swift; sourceTree = "<group>"; };
 		F88FED76EEAAAF08A730018B9CFAD1D9 /* Pods_KosignPushAsura_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignPushAsura_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F984BAF715359AA5E08A05BD3B6DCA2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC8E5FE6B646804478DE420C598583FA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
@@ -207,8 +203,6 @@
 		EB4D2B3B29A14844445968EF8898AEBA /* KosignPushAsura */ = {
 			isa = PBXGroup;
 			children = (
-				F3B3B913769F3308665C62EA0A2CBBE6 /* API.swift */,
-				DD9CABB787EF72D9F11E76181F4D727C /* AsuraNotification.swift */,
 				5D490CBC8EB475C8F06A6577A6C24FAF /* Pod */,
 				A7249FFF57E8442DC926B92653D9845D /* Support Files */,
 			);
@@ -350,8 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020DDBB0B2078BBB1D092677AC6F29A2 /* API.swift in Sources */,
-				AD9BCAA8339BC3CFFA46C7B7212EC169 /* AsuraNotification.swift in Sources */,
 				351C69460F0CD23EE9E9AECE3404D3F8 /* KosignPushAsura-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,22 +7,32 @@
 //
 
 import UIKit
-/* ----- STEP1: import module below ----- */
+/* ----- Step 1: import module below ----- */
 import KosignPushAsura
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+/* --- Step 2: replace superclass from (UIResponder, UIApplicationDelegate) to AsuraApplicationDelegate --- */
+class AppDelegate: AsuraApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        /* ----- STEP2: Register notification with your app id from Asura Kosign Push ----- */
-        AsuraNotification.notification.registerAppId(withAppId: "<your_app_id_here>", application: application)
+        /* ----- Step 3: Register notification with your app id from Asura Kosign Push ----- */
+        self.registerAsura(withAppId: "<input_app_id_here>")
         
         return true
     }
+    
+    // Optional ================= AsuraDelegate ====================
+    override func didReceiveAsuraNotifcation(userInfo: [String : AnyObject]) {
+        //do something here
+    }
+    
+    override func didFailRegisterAsuraNotification(error: Error) {
+        //do something here
+    }
+    // End ==================== AsuraDelegate =======================
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -45,27 +55,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-    /* =========================== Notification delegate =============================== */
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        
-        /* ----- STEP3: Start register notification after granted ----- */
-        AsuraNotification.notification.register(withDeviceToken: deviceToken) { (error) in
-            
-            if error == nil {
-                //success, do something here
-            }else {
-                //fail, do something here
-            }
-            
-        }
-        
-    }
-    
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("error notification: ", error.localizedDescription)
-    }
-    /* =========================== END Notification delegate =============================== */
-
 }
 

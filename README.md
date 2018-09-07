@@ -33,7 +33,16 @@ In AppDelegate.swift has 3 steps to configure.
 ```swift
 import KosignPushAsura
 ```
+
 - Step 2:
+replace superclass from (UIResponder, UIApplicationDelegate) to AsuraApplicationDelegate
+```swift
+class AppDelegate: AsuraApplicationDelegate {
+    ...
+}
+```
+
+- Step 3:
 Implement in didFinishLaunchingWithOptions.
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -41,21 +50,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     AsuraNotification.notification.registerAppId(withAppId: "<your_app_id_here>", application: application)
 
     return true
-}
-```
-- Step 3:
-Implement in didRegisterForRemoteNotificationsWithDeviceToken.
-```swift
-func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-
-    AsuraNotification.notification.register(withDeviceToken: deviceToken) { (error) in
-        if error == nil { //register to KosignAsuraPush successfully
-          //do something here when success
-        }else { //fail
-          //do something here when fail
-        }
-    }
-    
 }
 ```
 

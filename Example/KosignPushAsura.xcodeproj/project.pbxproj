@@ -227,8 +227,8 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 62EMNW6G6D;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -486,13 +486,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KosignPushAsura_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KosignPushAsura/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KosignPushAsura-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KosignPushAsura-Example--Oung--11-18-AM-a45195f2-d9e6-4df2-b9bb-65dbb03f59af---Vichhai--11-22-AM-https---docs.google.com-spreadsheets-d-1EjA1pPVjmBBisE9lkoeB-PhnFHv4GLk4olKrzmZVCY8-edit-usp-sharing-------Vichhai--1-52-PM--------------------------------------------------------------------Monthly-paty---------Yes--No--I-don-t-care.------------------------------------------------------------------------------------------Clinic-----------------------------------------------------------------------------------------Yes--No--I-don-t-give-a-f---.--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Yes--No--Why-should-I-use-it---I-don-t-give-a-f---.---Vichhai--2-05-PM-----------------.--2-11-PM-Request-Body-------language-----en------app-version-----1.0.1------device-model-----iPhone-6s-JM------app-uuid-----a45195f2-d9e6-4df2-b9bb-65dbb03f59af------token-----360206b0341c5fab8eac21e860809cf87c371e0ec3f1ff0251af38c6eaab0c5c------device-type-----2-----Oung--2-20-PM-43617e30-a3e9-4da9-a4b0-4793e1a20f12---Bunnavitou--5-37-PM-kh.com.kosign.bieplereceipt-----Yesterday--Bunnavitou--9-05-AM----Bunnavitou--9-20-AM-----9-28-AM--kh.com.kosign.Jorani-10-10-AM-43617e30-a3e9-4da9-a4b0-4793e1a20f12--Vichhai--11-18-AM-Note-We-cannot-use-company-internet-to-open-FB.---Sunlong--12-43-PM----surprised----Sunlong--1-07-PM-------------org.cocoapods.demo.KosignPushAsura-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -506,13 +507,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KosignPushAsura_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KosignPushAsura/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KosignPushAsura-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KosignPushAsura-Example--Oung--11-18-AM-a45195f2-d9e6-4df2-b9bb-65dbb03f59af---Vichhai--11-22-AM-https---docs.google.com-spreadsheets-d-1EjA1pPVjmBBisE9lkoeB-PhnFHv4GLk4olKrzmZVCY8-edit-usp-sharing-------Vichhai--1-52-PM--------------------------------------------------------------------Monthly-paty---------Yes--No--I-don-t-care.------------------------------------------------------------------------------------------Clinic-----------------------------------------------------------------------------------------Yes--No--I-don-t-give-a-f---.--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Yes--No--Why-should-I-use-it---I-don-t-give-a-f---.---Vichhai--2-05-PM-----------------.--2-11-PM-Request-Body-------language-----en------app-version-----1.0.1------device-model-----iPhone-6s-JM------app-uuid-----a45195f2-d9e6-4df2-b9bb-65dbb03f59af------token-----360206b0341c5fab8eac21e860809cf87c371e0ec3f1ff0251af38c6eaab0c5c------device-type-----2-----Oung--2-20-PM-43617e30-a3e9-4da9-a4b0-4793e1a20f12---Bunnavitou--5-37-PM-kh.com.kosign.bieplereceipt-----Yesterday--Bunnavitou--9-05-AM----Bunnavitou--9-20-AM-----9-28-AM--kh.com.kosign.Jorani-10-10-AM-43617e30-a3e9-4da9-a4b0-4793e1a20f12--Vichhai--11-18-AM-Note-We-cannot-use-company-internet-to-open-FB.---Sunlong--12-43-PM----surprised----Sunlong--1-07-PM-------------org.cocoapods.demo.KosignPushAsura-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -524,7 +526,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50CE2B815AE3F04C7EA76049 /* Pods-KosignPushAsura_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -537,6 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KosignPushAsura_Example.app/KosignPushAsura_Example";
@@ -547,7 +551,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BAA22530E6AFA67947070DD /* Pods-KosignPushAsura_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -556,6 +561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KosignPushAsura_Example.app/KosignPushAsura_Example";
